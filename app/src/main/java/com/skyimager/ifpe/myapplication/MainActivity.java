@@ -17,9 +17,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.i("Tag","Início");
+        Log.i("Bruna","Início");
         setContentView(R.layout.activity_main);
-        imagemI = (ImageView) findViewById(R.id.imagem1);
+       // imagemI = (ImageView) findViewById(R.id.imagem1);
         bt1I= (Button)findViewById(R.id.bt1);
         bt2I= (Button)findViewById(R.id.bt2);
 
@@ -37,20 +37,14 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void metodo1(){
-        Log.i("Tag","Entrou: Metodo1();");
-        imagemI.setImageResource(R.mipmap.imagem_foreground);
-        Log.i("Tag","imagem mudou ");
-        String texto = "Sucesso!";
-        Toast.makeText(this,texto,Toast.LENGTH_SHORT).show();
-
+        Log.i("Bruna","Entrou: Metodo1();");
+        Intent intent0= new Intent(this,Main4Activity.class);
+        startActivity(intent0);
     }
     public void metodo2(){
-        Log.i("Tag","Entrou: Metodo2();");
+        Log.i("Bruna","Entrou: Metodo2();");
         Intent intent1 = new Intent(this,Main2Activity.class);
         startActivity(intent1);
-        String texto = "Segunda Tela!";
-        Toast.makeText(this,texto,Toast.LENGTH_SHORT).show();
-
     }
 
 }

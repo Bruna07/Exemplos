@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="edit_Potência">Potência do equipamento</string>
+    <string name="edit_horaCons">Horas de uso equipamento</string>
+    <string name="edit_diasCons">Dias de uso do equipamento</string>
+    <string name="edit_Tarifa">Tarifa por região</string>
+    <string name="btcalculaconsumo">Calcular</string>
+    <string name="bt2">Consumo por equipamento</string>
+    <string name="bt1">ScrollView</string>
+    <string name="text_inicio">Consumo de Energia</string>
+
 </resources>

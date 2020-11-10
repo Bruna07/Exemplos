@@ -11,44 +11,44 @@ public class DebugActivity extends AppCompatActivity {
     protected void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         //setContentView(R.layout.activity_main);
-        Log.i("Tag", this.getClassName()+ ".onCreate() chamado:"+ icicle);
+        Log.i("Bruna", this.getClassName()+ ".onCreate() chamado:"+ icicle);
 
     }
 
     protected void onStart() {
         super.onStart();
-        Log.i("Tag",getClassName()+ ".onStart() chamado");
+        Log.i("Bruna",getClassName()+ ".onStart() chamado");
     }
 
     protected void onRestart() {
         super.onRestart();
-        Log.i("Tag",getClassName()+ ".onRestart() chamado.");
+        Log.i("Bruna",getClassName()+ ".onRestart() chamado.");
     }
 
     protected void onResume() {
         super.onResume();
-        Log.i("Tag",getClassName()+ ".onResume() chamado.");
+        Log.i("Bruna",getClassName()+ ".onResume() chamado.");
     }
 
     protected void onPause() {
         super.onPause();
-        Log.i("Tag",getClassName()+ ".onPause() chamado.");
+        Log.i("Bruna",getClassName()+ ".onPause() chamado.");
     }
 
     //@Override
     protected void OnSaveInstaceState(Bundle outState){
         super.onSaveInstanceState(outState);
-        Log.i("Tag",getClassName()+ ".onSaveInstanceState() chamado.");
+        Log.i("Bruna",getClassName()+ ".onSaveInstanceState() chamado.");
     }
 
     protected void onStop(){
         super.onStop();
-        Log.i("Tag", getClassName()+ ".onStop() chamado.");
+        Log.i("Bruna", getClassName()+ ".onStop() chamado.");
     }
 
     protected void onDestroy(){
         super.onDestroy();
-        Log.i("Tag",getClassName()+".onDestroy() chamado.");
+        Log.i("Bruna",getClassName()+".onDestroy() chamado.");
     }
 
     private String getClassName(){
